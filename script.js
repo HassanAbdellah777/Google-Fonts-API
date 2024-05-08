@@ -41,9 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "+"
         )}`;
         document.head.appendChild(fontLink);
-      } else {
-        console.log(font);
-      }
+      } 
     });
 
     // Display the input word and Font-Family-Name using each selected font
